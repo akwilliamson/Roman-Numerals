@@ -5,4 +5,12 @@ describe('roman_numerals') do
   it('returns a roman numeral with given fixed integer') do
     roman_numerals(10).should(eq("X"))
   end
+
+  it('Returns a roman numeral output up to three') do
+    roman_numerals(3).should(eq("III"))
+  end
+
+  it('Returns a roman numeral character for any number entered up to 3999') do
+    roman_numerals(163).should(eq("CLXIII"))
+  end
 end

@@ -18,7 +18,7 @@ The exception is that you can't have more than three of the same character is a 
 
 You also have to separate ones, tens, hundreds, and thousands. In other words, 99 is XCIX, not IC.
 
-You can't count higher than 4,999 in Roman numerals.
+You can't count higher than 3,999 in Roman numerals.
 
 Write a method to convert numbers into roman numerals. Let BDD be your guiding light.
 
