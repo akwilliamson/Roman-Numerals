@@ -14,3 +14,9 @@ describe('roman_numerals') do
     roman_numerals(163).should(eq("CLXIII"))
   end
 end
+
+describe('reverse_roman_numerals') do
+  it('returns a number given a matching roman numeral') do
+    reverse_roman_numerals("IV").should(eq(4))
+  end
+end
